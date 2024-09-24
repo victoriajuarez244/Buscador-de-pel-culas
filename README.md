@@ -1,1 +1,1 @@
-# Buscador-de-pel-culas
+# Buscador-de-peliculas
