@@ -1,0 +1,924 @@
+[{
+  "_id": {
+    "$oid": "67d62ee369710934678740cf"
+  },
+  "Título": "El origen",
+  "Año": 2010,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.8,
+  "Actor Protagonista": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+  "Clasificación": 13,
+  "Sinopsis": "Un ladrón especializado en extraer secretos del subconsciente se enfrenta a una misión compleja: implantar una idea en la mente de su objetivo."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d0"
+  },
+  "Título": "Titanic",
+  "Año": 1997,
+  "Género": "Romance",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Leonardo DiCaprio, Kate Winslet",
+  "Clasificación": 13,
+  "Sinopsis": "Una joven aristócrata y un artista pobre se enamoran a bordo del infame transatlántico Titanic antes de que se estrelle contra un iceberg."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d1"
+  },
+  "Título": "Batman: El caballero de la noche",
+  "Año": 2008,
+  "Género": "Acción",
+  "Puntuación": 9,
+  "Actor Protagonista": "Christian Bale, Heath Ledger, Aaron Eckhart",
+  "Clasificación": 13,
+  "Sinopsis": "Batman enfrenta a su mayor adversario, el Joker, quien busca sumergir Gotham City en el caos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d2"
+  },
+  "Título": "Interestelar",
+  "Año": 2014,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
+  "Clasificación": 13,
+  "Sinopsis": "Un grupo de astronautas viaja a través de un agujero de gusano en busca de un nuevo hogar para la humanidad."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d3"
+  },
+  "Título": "Matrix",
+  "Año": 1999,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.7,
+  "Actor Protagonista": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+  "Clasificación": 18,
+  "Sinopsis": "Un hacker descubre que la realidad en la que vive es una simulación creada por máquinas y se une a una resistencia para liberar a la humanidad."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d4"
+  },
+  "Título": "Gladiador",
+  "Año": 2000,
+  "Género": "Acción",
+  "Puntuación": 8.5,
+  "Actor Protagonista": "Russell Crowe, Joaquin Phoenix, Connie Nielsen",
+  "Clasificación": 18,
+  "Sinopsis": "Un general romano es traicionado y se convierte en gladiador, buscando venganza contra el emperador que destruyó su vida."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d5"
+  },
+  "Título": "El padrino",
+  "Año": 1972,
+  "Género": "Crimen",
+  "Puntuación": 9.2,
+  "Actor Protagonista": "Marlon Brando, Al Pacino, James Caan",
+  "Clasificación": 18,
+  "Sinopsis": "La historia de la familia Corleone, su ascenso al poder en el crimen organizado y las luchas internas por el control del imperio familiar."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d6"
+  },
+  "Título": "Tiempos violentos",
+  "Año": 1994,
+  "Género": "Crimen",
+  "Puntuación": 8.9,
+  "Actor Protagonista": "John Travolta, Uma Thurman, Samuel L. Jackson",
+  "Clasificación": 18,
+  "Sinopsis": "Varios relatos interconectados sobre el crimen, la venganza y el destino se desarrollan en Los Ángeles."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d7"
+  },
+  "Título": "Avatar",
+  "Año": 2009,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 7.9,
+  "Actor Protagonista": "Sam Worthington, Zoe Saldana, Sigourney Weaver",
+  "Clasificación": 13,
+  "Sinopsis": "Un ex-marine es enviado a un planeta distante donde se convierte en un avatar para interactuar con los nativos, los Na'vi, mientras una crisis ecológica se desata."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d8"
+  },
+  "Título": "Los Vengadores",
+  "Año": 2012,
+  "Género": "Acción",
+  "Puntuación": 8,
+  "Actor Protagonista": "Robert Downey Jr., Chris Hemsworth, Scarlett Johansson",
+  "Clasificación": 13,
+  "Sinopsis": "Los héroes más poderosos de la Tierra deben unirse para detener una invasión alienígena liderada por Loki."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740d9"
+  },
+  "Título": "Parque Jurásico",
+  "Año": 1993,
+  "Género": "Aventura",
+  "Puntuación": 8.2,
+  "Actor Protagonista": "Sam Neill, Laura Dern, Jeff Goldblum",
+  "Clasificación": 13,
+  "Sinopsis": "Un parque temático de dinosaurios se convierte en una pesadilla cuando los animales se liberan y comienzan a atacar a los humanos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740da"
+  },
+  "Título": "El rey león",
+  "Año": 1994,
+  "Género": "Animación",
+  "Puntuación": 8.5,
+  "Actor Protagonista": "Matthew Broderick, James Earl Jones, Jeremy Irons",
+  "Clasificación": 0,
+  "Sinopsis": "Un joven león debe asumir su lugar como rey de la sabana africana después de la muerte de su padre, enfrentándose a su malvado tío Scar."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740db"
+  },
+  "Título": "Forrest Gump",
+  "Año": 1994,
+  "Género": "Drama",
+  "Puntuación": 8.8,
+  "Actor Protagonista": "Tom Hanks, Robin Wright, Gary Sinise",
+  "Clasificación": 13,
+  "Sinopsis": "La vida de un hombre con un bajo coeficiente intelectual está entrelazada con eventos históricos, mientras él sigue su propio camino hacia el éxito."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740dc"
+  },
+  "Título": "Spider-Man: Sin camino a casa",
+  "Año": 2021,
+  "Género": "Acción",
+  "Puntuación": 8.3,
+  "Actor Protagonista": "Tom Holland, Zendaya, Benedict Cumberbatch",
+  "Clasificación": 13,
+  "Sinopsis": "Spider-Man debe enfrentarse a los villanos de otros universos tras un hechizo fallido que amenaza con destruir su realidad."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740dd"
+  },
+  "Título": "Guasón",
+  "Año": 2019,
+  "Género": "Drama",
+  "Puntuación": 8.4,
+  "Actor Protagonista": "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
+  "Clasificación": 18,
+  "Sinopsis": "El origen del villano Joker se relata en esta historia de un hombre desplazado por la sociedad que cae en la locura y se convierte en un símbolo del caos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740de"
+  },
+  "Título": "Sueño de fuga",
+  "Año": 1994,
+  "Género": "Drama",
+  "Puntuación": 9.3,
+  "Actor Protagonista": "Tim Robbins, Morgan Freeman, Bob Gunton",
+  "Clasificación": 18,
+  "Sinopsis": "Un hombre condenado a cadena perpetua por un crimen que no cometió encuentra amistad y esperanza mientras planea su fuga de prisión."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740df"
+  },
+  "Título": "El señor de los anillos: La comunidad del anillo",
+  "Año": 2001,
+  "Género": "Fantasía",
+  "Puntuación": 8.8,
+  "Actor Protagonista": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+  "Clasificación": 13,
+  "Sinopsis": "Un grupo de héroes se embarca en una misión peligrosa para destruir un anillo que tiene el poder de destruir el mundo."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e0"
+  },
+  "Título": "El señor de los anillos: Las dos torres",
+  "Año": 2002,
+  "Género": "Fantasía",
+  "Puntuación": 8.7,
+  "Actor Protagonista": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+  "Clasificación": 13,
+  "Sinopsis": "La lucha contra las fuerzas de Sauron continúa mientras la Comunidad del Anillo se enfrenta a nuevas amenazas y alianzas."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e1"
+  },
+  "Título": "El señor de los anillos: El retorno del rey",
+  "Año": 2003,
+  "Género": "Fantasía",
+  "Puntuación": 9,
+  "Actor Protagonista": "Elijah Wood, Ian McKellen, Viggo Mortensen",
+  "Clasificación": 13,
+  "Sinopsis": "El destino de la Tierra Media se decide en una batalla final mientras el anillo se acerca a su destrucción."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e2"
+  },
+  "Título": "La guerra de las galaxias: Una nueva esperanza",
+  "Año": 1977,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Clasificación": 13,
+  "Sinopsis": "Un joven granjero se une a una rebelión para derrotar al malvado Imperio Galáctico y salvar a la princesa Leia."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e3"
+  },
+  "Título": "La guerra de las galaxias: El imperio contraataca",
+  "Año": 1980,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.7,
+  "Actor Protagonista": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Clasificación": 13,
+  "Sinopsis": "Los rebeldes luchan por su supervivencia mientras Darth Vader persigue a Luke Skywalker y sus amigos en una guerra épica."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e4"
+  },
+  "Título": "La guerra de las galaxias: El regreso del Jedi",
+  "Año": 1983,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8.3,
+  "Actor Protagonista": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Clasificación": 13,
+  "Sinopsis": "Luke Skywalker regresa para enfrentar a Darth Vader y el Emperador Palpatine en una batalla decisiva por el destino de la galaxia."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e5"
+  },
+  "Título": "El silencio de los inocentes",
+  "Año": 1991,
+  "Género": "Thriller",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+  "Clasificación": 18,
+  "Sinopsis": "Un agente del FBI se enfrenta a un asesino en serie mientras busca la ayuda de otro asesino encarcelado para atraparlo."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e6"
+  },
+  "Título": "La lista de Schindler",
+  "Año": 1993,
+  "Género": "Drama",
+  "Puntuación": 9,
+  "Actor Protagonista": "Liam Neeson, Ben Kingsley, Ralph Fiennes",
+  "Clasificación": 18,
+  "Sinopsis": "Basada en hechos reales, la historia de Oskar Schindler, un empresario que salvó a más de mil judíos del Holocausto."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e7"
+  },
+  "Título": "El club de la pelea",
+  "Año": 1999,
+  "Género": "Drama",
+  "Puntuación": 8.8,
+  "Actor Protagonista": "Edward Norton, Brad Pitt, Helena Bonham Carter",
+  "Clasificación": 18,
+  "Sinopsis": "Un hombre insomne forma un club secreto de lucha, lo que lo lleva a una peligrosa espiral de caos y autodestrucción."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e8"
+  },
+  "Título": "Milagros inesperados",
+  "Año": 1999,
+  "Género": "Drama",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Tom Hanks, Michael Clarke Duncan, David Morse",
+  "Clasificación": 18,
+  "Sinopsis": "Un prisionero en el corredor de la muerte forma un vínculo especial con un guardia y cambia la vida de aquellos que lo rodean."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740e9"
+  },
+  "Título": "Rescatando al soldado Ryan",
+  "Año": 1998,
+  "Género": "Bélica",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Tom Hanks, Matt Damon, Tom Sizemore",
+  "Clasificación": 18,
+  "Sinopsis": "Un grupo de soldados se embarca en una misión para salvar a un paracaidista cuya madre ha perdido a tres hijos en la guerra."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ea"
+  },
+  "Título": "Los infiltrados",
+  "Año": 2006,
+  "Género": "Crimen",
+  "Puntuación": 8.5,
+  "Actor Protagonista": "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
+  "Clasificación": 18,
+  "Sinopsis": "Un policía encubierto se infiltra en una banda criminal, mientras que un miembro de la banda se infiltra en la policía."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740eb"
+  },
+  "Título": "Latigazo",
+  "Año": 2014,
+  "Género": "Drama",
+  "Puntuación": 8.5,
+  "Actor Protagonista": "Miles Teller, J.K. Simmons, Melissa Benoist",
+  "Clasificación": 18,
+  "Sinopsis": "Un joven baterista lucha por cumplir con las expectativas de un maestro despiadado que lleva a los estudiantes a límites extremos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ec"
+  },
+  "Título": "The Revenant",
+  "Año": 2015,
+  "Género": "Aventura",
+  "Puntuación": 8,
+  "Actor Protagonista": "Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson",
+  "Clasificación": 18,
+  "Sinopsis": "Un cazador de pieles es abandonado tras ser atacado por un oso y debe sobrevivir en la naturaleza para vengarse de aquellos que lo dejaron atrás."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ed"
+  },
+  "Título": "Django Unchained",
+  "Año": 2012,
+  "Género": "Western",
+  "Puntuación": 8.4,
+  "Actor Protagonista": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio",
+  "Clasificación": 18,
+  "Sinopsis": "Un esclavo liberado se asocia con un cazador de recompensas para rescatar a su esposa de un terrateniente brutal."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ee"
+  },
+  "Título": "Mad Max: Fury Road",
+  "Año": 2015,
+  "Género": "Acción",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Tom Hardy, Charlize Theron, Nicholas Hoult",
+  "Clasificación": 18,
+  "Sinopsis": "En un futuro post-apocalíptico, Max se une a una guerrera para escapar de un tirano en una persecución salvaje por el desierto."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ef"
+  },
+  "Título": "Parasite",
+  "Año": 2019,
+  "Género": "Thriller",
+  "Puntuación": 8.6,
+  "Actor Protagonista": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
+  "Clasificación": 18,
+  "Sinopsis": "Una familia pobre se infiltra en la vida de una familia rica, lo que desencadena una serie de eventos inesperados."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f0"
+  },
+  "Título": "A Beautiful Mind",
+  "Año": 2001,
+  "Género": "Drama",
+  "Puntuación": 8.2,
+  "Actor Protagonista": "Russell Crowe, Jennifer Connelly, Ed Harris",
+  "Clasificación": 13,
+  "Sinopsis": "La historia de un genio matemático que lucha contra la esquizofrenia mientras realiza descubrimientos clave en su campo."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f1"
+  },
+  "Título": "The Prestige",
+  "Año": 2006,
+  "Género": "Drama",
+  "Puntuación": 8.5,
+  "Actor Protagonista": "Hugh Jackman, Christian Bale, Scarlett Johansson",
+  "Clasificación": 13,
+  "Sinopsis": "Dos magos rivales luchan por superar al otro con trucos cada vez más sorprendentes, hasta que sus obsesiones los llevan a límites peligrosos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f2"
+  },
+  "Título": "The Wolf of Wall Street",
+  "Año": 2013,
+  "Género": "Drama",
+  "Puntuación": 8.2,
+  "Actor Protagonista": "Leonardo DiCaprio, Jonah Hill, Matthew McConaughey",
+  "Clasificación": 18,
+  "Sinopsis": "Un joven corredor de bolsa asciende en Wall Street, pero sus prácticas corruptas y su estilo de vida decadente lo llevan a su caída."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f3"
+  },
+  "Título": "La La Land",
+  "Año": 2016,
+  "Género": "Romance",
+  "Puntuación": 8,
+  "Actor Protagonista": "Ryan Gosling, Emma Stone",
+  "Clasificación": 13,
+  "Sinopsis": "Una aspirante a actriz y un pianista de jazz luchan por equilibrar su carrera y su relación romántica en Los Ángeles."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f4"
+  },
+  "Título": "The Grand Budapest Hotel",
+  "Año": 2014,
+  "Género": "Comedia",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Ralph Fiennes, F. Murray Abraham, Tilda Swinton",
+  "Clasificación": 13,
+  "Sinopsis": "Las aventuras del conserje de un hotel de lujo en Europa y su relación con un joven empleado que lo involucra en un robo de arte."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f5"
+  },
+  "Título": "Gravity",
+  "Año": 2013,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 7.7,
+  "Actor Protagonista": "Sandra Bullock, George Clooney",
+  "Clasificación": 13,
+  "Sinopsis": "Dos astronautas luchan por sobrevivir en el espacio tras la destrucción de su estación espacial."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f6"
+  },
+  "Título": "No Country for Old Men",
+  "Año": 2007,
+  "Género": "Crimen",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Javier Bardem, Tommy Lee Jones, Woody Harrelson",
+  "Clasificación": 18,
+  "Sinopsis": "Un hombre encuentra una gran suma de dinero en el desierto, lo que desencadena una violenta persecución entre él, un asesino y un sheriff."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f7"
+  },
+  "Título": "The Social Network",
+  "Año": 2010,
+  "Género": "Drama",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Jesse Eisenberg, Andrew Garfield, Justin Timberlake",
+  "Clasificación": 13,
+  "Sinopsis": "La historia de la creación de Facebook y las controversias legales que rodean a su fundador, Mark Zuckerberg."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f8"
+  },
+  "Título": "The Big Short",
+  "Año": 2015,
+  "Género": "Drama",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Christian Bale, Steve Carell, Ryan Gosling",
+  "Clasificación": 13,
+  "Sinopsis": "Un grupo de inversores predice la crisis financiera de 2008 y se aprovecha de la caída del mercado hipotecario."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740f9"
+  },
+  "Título": "Logan",
+  "Año": 2017,
+  "Género": "Acción",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Hugh Jackman, Patrick Stewart, Richard E. Grant",
+  "Clasificación": 18,
+  "Sinopsis": "El envejecido Logan cuida a un enfermo profesor X mientras protege a una joven mutante de fuerzas oscuras."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740fa"
+  },
+  "Título": "Blade Runner 2049",
+  "Año": 2017,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8,
+  "Actor Protagonista": "Ryan Gosling, Harrison Ford, Jared Leto",
+  "Clasificación": 18,
+  "Sinopsis": "En un futuro distópico, un nuevo Blade Runner busca respuestas a secretos enterrados en su sociedad controlada por inteligencia artificial."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740fb"
+  },
+  "Título": "1917",
+  "Año": 2019,
+  "Género": "Bélica",
+  "Puntuación": 8.2,
+  "Actor Protagonista": "George MacKay, Dean-Charles Chapman, Mark Strong",
+  "Clasificación": 18,
+  "Sinopsis": "Durante la Primera Guerra Mundial, dos soldados británicos deben entregar un mensaje crucial para salvar a 1,600 compañeros de la muerte."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740fc"
+  },
+  "Título": "Knives Out",
+  "Año": 2019,
+  "Género": "Misterio",
+  "Puntuación": 7.9,
+  "Actor Protagonista": "Daniel Craig, Chris Evans, Ana de Armas",
+  "Clasificación": 13,
+  "Sinopsis": "Un detective investiga la muerte de un novelista de misterio, descubriendo secretos familiares y un crimen mucho más complejo de lo que parece."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740fd"
+  },
+  "Título": "The Irishman",
+  "Año": 2019,
+  "Género": "Crimen",
+  "Puntuación": 7.9,
+  "Actor Protagonista": "Robert De Niro, Al Pacino, Joe Pesci",
+  "Clasificación": 18,
+  "Sinopsis": "Un veterano de la mafia mira hacia atrás a su vida, mientras reflexiona sobre la desaparición del sindicalista Jimmy Hoffa."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740fe"
+  },
+  "Título": "Once Upon a Time in Hollywood",
+  "Año": 2019,
+  "Género": "Drama",
+  "Puntuación": 7.7,
+  "Actor Protagonista": "Leonardo DiCaprio, Brad Pitt, Margot Robbie",
+  "Clasificación": 18,
+  "Sinopsis": "En 1969, un actor y su doble de cine enfrentan los cambios en Hollywood y la llegada de una tragedia con la secta de Charles Manson."
+},
+{
+  "_id": {
+    "$oid": "67d62ee369710934678740ff"
+  },
+  "Título": "The Truman Show",
+  "Año": 1998,
+  "Género": "Drama",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Jim Carrey, Laura Linney, Ed Harris",
+  "Clasificación": 13,
+  "Sinopsis": "Un hombre vive toda su vida sin saber que está siendo grabado y transmitido en un programa de televisión, hasta que descubre la verdad."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874100"
+  },
+  "Título": "Catch Me If You Can",
+  "Año": 2002,
+  "Género": "Drama",
+  "Puntuación": 8.1,
+  "Actor Protagonista": "Leonardo DiCaprio, Tom Hanks, Christopher Walken",
+  "Clasificación": 13,
+  "Sinopsis": "Un joven estafador escapa de la policía y el FBI mientras se disfraza como piloto, doctor y abogado."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874101"
+  },
+  "Título": "The Hateful Eight",
+  "Año": 2015,
+  "Género": "Western",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh",
+  "Clasificación": 18,
+  "Sinopsis": "Ocho extraños se encuentran atrapados en una cabaña durante una tormenta de nieve, mientras secretos oscuros salen a la luz."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874102"
+  },
+  "Título": "The Bourne Identity",
+  "Año": 2002,
+  "Género": "Acción",
+  "Puntuación": 7.9,
+  "Actor Protagonista": "Matt Damon, Franka Potente, Clive Owen",
+  "Clasificación": 13,
+  "Sinopsis": "Un hombre amnésico se embarca en una peligrosa misión mientras intenta descubrir su identidad y los motivos detrás de su persecución."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874103"
+  },
+  "Título": "The Notebook",
+  "Año": 2004,
+  "Género": "Romance",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Ryan Gosling, Rachel McAdams, James Marsden",
+  "Clasificación": 13,
+  "Sinopsis": "Una historia de amor que narra cómo una joven pareja lucha por mantener su relación a pesar de los obstáculos impuestos por sus diferencias sociales."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874104"
+  },
+  "Título": "The Equalizer",
+  "Año": 2014,
+  "Género": "Acción",
+  "Puntuación": 7.2,
+  "Actor Protagonista": "Denzel Washington, Chloe Grace Moretz, Marton Csokas",
+  "Clasificación": 18,
+  "Sinopsis": "Un hombre con habilidades de combate se convierte en un vigilante cuando una joven es amenazada por la mafia rusa."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874105"
+  },
+  "Título": "A Star Is Born",
+  "Año": 2018,
+  "Género": "Drama",
+  "Puntuación": 7.6,
+  "Actor Protagonista": "Bradley Cooper, Lady Gaga, Sam Elliott",
+  "Clasificación": 13,
+  "Sinopsis": "Un músico veterano ayuda a una joven cantante a alcanzar la fama mientras enfrenta sus propios demonios personales y profesionales."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874106"
+  },
+  "Título": "Slumdog Millionaire",
+  "Año": 2008,
+  "Género": "Drama",
+  "Puntuación": 8,
+  "Actor Protagonista": "Dev Patel, Freida Pinto, Anil Kapoor",
+  "Clasificación": 13,
+  "Sinopsis": "Un joven indio compite en un popular concurso de televisión, mientras recuerda su vida y las experiencias que lo llevaron hasta allí."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874107"
+  },
+  "Título": "Black Swan",
+  "Año": 2010,
+  "Género": "Thriller",
+  "Puntuación": 8,
+  "Actor Protagonista": "Natalie Portman, Mila Kunis, Winona Ryder",
+  "Clasificación": 18,
+  "Sinopsis": "Una bailarina de ballet lucha por equilibrar su vida y su obsesión con el papel protagonista en \"El lago de los cisnes\"."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874108"
+  },
+  "Título": "The Pursuit of Happyness",
+  "Año": 2006,
+  "Género": "Drama",
+  "Puntuación": 8,
+  "Actor Protagonista": "Will Smith, Jaden Smith, Thandie Newton",
+  "Clasificación": 13,
+  "Sinopsis": "Un hombre lucha por mantener a su hijo mientras enfrenta una vida de pobreza y un trabajo precario en su búsqueda por convertirse en corredor de bolsa."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874109"
+  },
+  "Título": "Corazón valiente",
+  "Año": 1995,
+  "Género": "Bélica",
+  "Puntuación": 8.3,
+  "Actor Protagonista": "Mel Gibson, Sophie Marceau, Brendan Gleeson",
+  "Clasificación": 18,
+  "Sinopsis": "La historia de William Wallace, un héroe escocés que lidera una rebelión contra el dominio inglés en el siglo XIII."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410a"
+  },
+  "Título": "Los otros",
+  "Año": 2001,
+  "Género": "Terror",
+  "Puntuación": 7.6,
+  "Actor Protagonista": "Nicole Kidman, Fionnula Flanagan, Alakina Mann",
+  "Clasificación": 13,
+  "Sinopsis": "Una madre que vive con sus dos hijos en una casa aislada empieza a descubrir que la casa está plagada de presencias extrañas."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410b"
+  },
+  "Título": "El gran pez",
+  "Año": 2003,
+  "Género": "Fantasía",
+  "Puntuación": 8,
+  "Actor Protagonista": "Ewan McGregor, Albert Finney, Billy Crudup",
+  "Clasificación": 13,
+  "Sinopsis": "Un hombre mayor relata las fantásticas historias de su vida a su hijo, que no sabe si creer en ellas."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410c"
+  },
+  "Título": "El planeta de los simios",
+  "Año": 1968,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 8,
+  "Actor Protagonista": "Charlton Heston, Roddy McDowall, Kim Hunter",
+  "Clasificación": 13,
+  "Sinopsis": "Un astronauta llega a un planeta gobernado por simios inteligentes que esclavizan a los humanos."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410d"
+  },
+  "Título": "La chica del dragón tatuado",
+  "Año": 2011,
+  "Género": "Thriller",
+  "Puntuación": 7.8,
+  "Actor Protagonista": "Rooney Mara, Daniel Craig, Christopher Plummer",
+  "Clasificación": 18,
+  "Sinopsis": "Una periodista y una hacker investigan la desaparición de una joven hace décadas mientras descubren secretos oscuros."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410e"
+  },
+  "Título": "El diablo viste a la moda",
+  "Año": 2006,
+  "Género": "Comedia",
+  "Puntuación": 6.9,
+  "Actor Protagonista": "Anne Hathaway, Meryl Streep, Emily Blunt",
+  "Clasificación": 13,
+  "Sinopsis": "Una joven obtiene un trabajo en una revista de moda y debe lidiar con su exigente jefa mientras lucha por mantener su vida personal."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787410f"
+  },
+  "Título": "500 días con ella",
+  "Año": 2009,
+  "Género": "Romance",
+  "Puntuación": 7.7,
+  "Actor Protagonista": "Joseph Gordon-Levitt, Zooey Deschanel, Geoffrey Arend",
+  "Clasificación": 13,
+  "Sinopsis": "La historia de una relación que empieza y termina contada desde diferentes perspectivas, centrándose en la experiencia del protagonista masculino."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874110"
+  },
+  "Título": "El código Da Vinci",
+  "Año": 2006,
+  "Género": "Misterio",
+  "Puntuación": 6.6,
+  "Actor Protagonista": "Tom Hanks, Audrey Tautou, Jean Reno",
+  "Clasificación": 13,
+  "Sinopsis": "Un profesor de simbología se ve envuelto en una conspiración que lo lleva a descubrir secretos históricos mientras es perseguido por un asesino."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874111"
+  },
+  "Título": "Ángeles y demonios",
+  "Año": 2009,
+  "Género": "Misterio",
+  "Puntuación": 6.7,
+  "Actor Protagonista": "Tom Hanks, Ewan McGregor, Ayelet Zurer",
+  "Clasificación": 13,
+  "Sinopsis": "Un experto en simbología investiga una serie de asesinatos relacionados con los Illuminati y el Vaticano."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874112"
+  },
+  "Título": "Inferno",
+  "Año": 2016,
+  "Género": "Misterio",
+  "Puntuación": 6.2,
+  "Actor Protagonista": "Tom Hanks, Felicity Jones, Irrfan Khan",
+  "Clasificación": 13,
+  "Sinopsis": "Un experto en simbología sufre de amnesia y se une a una doctora para detener una amenaza relacionada con una plaga mortal."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874113"
+  },
+  "Título": "El conjuro",
+  "Año": 2013,
+  "Género": "Terror",
+  "Puntuación": 7.5,
+  "Actor Protagonista": "Vera Farmiga, Patrick Wilson, Lili Taylor",
+  "Clasificación": 13,
+  "Sinopsis": "Basado en hechos reales, un par de investigadores paranormales ayudan a una familia aterrorizada por una entidad maligna en su casa."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874114"
+  },
+  "Título": "Annabelle",
+  "Año": 2014,
+  "Género": "Terror",
+  "Puntuación": 5.4,
+  "Actor Protagonista": "Annabelle Wallis, Ward Horton, Alfre Woodard",
+  "Clasificación": 13,
+  "Sinopsis": "Una muñeca poseída por un espíritu demoníaco aterroriza a una joven pareja y su hija recién nacida."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874115"
+  },
+  "Título": "IT (Eso)",
+  "Año": 2017,
+  "Género": "Terror",
+  "Puntuación": 7.3,
+  "Actor Protagonista": "Bill Skarsgård, Jaeden Lieberher, Finn Wolfhard",
+  "Clasificación": 18,
+  "Sinopsis": "Un grupo de niños en una pequeña ciudad se enfrenta a un ser maligno que toma la forma de un payaso."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874116"
+  },
+  "Título": "Fragmentado",
+  "Año": 2016,
+  "Género": "Thriller",
+  "Puntuación": 7.3,
+  "Actor Protagonista": "James McAvoy, Anya Taylor-Joy, Betty Buckley",
+  "Clasificación": 13,
+  "Sinopsis": "Un hombre con múltiples personalidades rapta a tres jóvenes y deben luchar por sobrevivir mientras descubren la verdad detrás de su secuestrador."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874117"
+  },
+  "Título": "Glass",
+  "Año": 2019,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 6.6,
+  "Actor Protagonista": "James McAvoy, Bruce Willis, Samuel L. Jackson",
+  "Clasificación": 13,
+  "Sinopsis": "En este thriller de superhéroes, tres individuos con habilidades extraordinarias se enfrentan en una confrontación de proporciones épicas."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874118"
+  },
+  "Título": "Señales",
+  "Año": 2002,
+  "Género": "Ciencia Ficción",
+  "Puntuación": 6.8,
+  "Actor Protagonista": "Mel Gibson, Joaquin Phoenix, Rory Culkin",
+  "Clasificación": 13,
+  "Sinopsis": "Un ex sacerdote y su familia descubren señales misteriosas en los cultivos que podrían ser el preludio de una invasión alienígena."
+},
+{
+  "_id": {
+    "$oid": "67d62ee36971093467874119"
+  },
+  "Título": "Coraline y la puerta secreta",
+  "Año": 2009,
+  "Género": "Animación, Fantasía",
+  "Puntuación": 7.7,
+  "Actor Protagonista": "Dakota Fanning, Teri Hatcher, Jennifer Saunders",
+  "Clasificación": 13,
+  "Sinopsis": "Una niña encuentra una puerta secreta que la lleva a un mundo paralelo, donde debe salvar a sus padres y su vida en el proceso."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787411a"
+  },
+  "Título": "John Wick: Otro día para matar",
+  "Año": 2014,
+  "Género": "Acción, Crimen",
+  "Puntuación": 7.4,
+  "Actor Protagonista": "Keanu Reeves, Willem Dafoe, Michael Nyqvist",
+  "Clasificación": 18,
+  "Sinopsis": "Un ex asesino profesional se ve forzado a volver a la acción cuando una deuda del pasado lo obliga a asesinar a su antiguo amigo."
+},
+{
+  "_id": {
+    "$oid": "67d62ee3697109346787411b"
+  },
+  "Título": "John Wick: Pacto de sangre",
+  "Año": 2017,
+  "Género": "Acción, Crimen",
+  "Puntuación": 7.5,
+  "Actor Protagonista": "Keanu Reeves, Laurence Fishburne, Ruby Rose",
+  "Clasificación": 18,
+  "Sinopsis": "John Wick debe luchar para sobrevivir después de romper una de las reglas sagradas de la sociedad de asesinos."
+}]
