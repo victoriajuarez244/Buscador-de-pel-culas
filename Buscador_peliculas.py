@@ -1,6 +1,9 @@
 import sys
-from PySide6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QWidget, QLineEdit, QPushButton, 
-                               QTableWidget, QLabel, QTableWidgetItem, QTabWidget, QMessageBox)
+from PySide6.QtWidgets import (
+    QApplication, QMainWindow, QVBoxLayout, QWidget, QLineEdit, QPushButton,
+    QTableWidget, QLabel, QTableWidgetItem, QTabWidget, QMessageBox, QCompleter, QGroupBox, QFormLayout
+)
+from PySide6.QtCore import Qt
 from pymongo import MongoClient
 
 class Actor:
@@ -26,7 +29,11 @@ class Pelicula:
         self.__año = año
         self.__genero = genero
         self.__puntuacion = puntuacion
-        self.__actores = [Actor(actor) for actor in actores]  
+
+        if isinstance(actores, str):
+            actores = [a.strip() for a in actores.split(',')]
+
+        self.__actores = [Actor(actor) for actor in actores]
         self.__clasificacion = clasificacion
         self.__sinopsis = sinopsis
 
@@ -34,13 +41,14 @@ class Pelicula:
             actor.agregar_pelicula(self)
 
     def obtener_datos(self):
-        return [self.__titulo, str(self.__año), self.__genero, str(self.__puntuacion), 
+        return [self.__titulo, str(self.__año), self.__genero, str(self.__puntuacion),
                 ', '.join([actor.obtener_nombre() for actor in self.__actores]), str(self.__clasificacion), self.__sinopsis]
 
     def tiene_actor(self, actor):
         return any(a.obtener_nombre() == actor.obtener_nombre() for a in self.__actores)
 
 # Modelo
+
 class GestorPeliculas:
     def __init__(self):
         self.__client = MongoClient('mongodb://localhost:27017/')
@@ -49,12 +57,16 @@ class GestorPeliculas:
 
     def buscar_por_titulo(self, titulo):
         peliculas = self.__coleccion.find({"Título": {"$regex": titulo, "$options": "i"}})
-        return [Pelicula(p['Título'], p['Año'], p['Género'], p['Puntuación'], p['Actor Protagonista'], p['Clasificación'], p['Sinopsis']) for p in peliculas]
+        return [Pelicula(p['Título'], p['Año'], p['Género'], p['Puntuación'],
+                        p['Actor Protagonista'], p['Clasificación'], p['Sinopsis']) for p in peliculas]
 
     def buscar_comunes(self, actor1, actor2):
-        peliculas = self.__coleccion.find({"Actor Protagonista": {"$regex": f"{actor1}.*{actor2}|{actor2}.*{actor1}", "$options": "i"}})
-        peliculas_obj = [Pelicula(p['Título'], p['Año'], p['Género'], p['Puntuación'], p['Actor Protagonista'], p['Clasificación'], p['Sinopsis']) for p in peliculas]
-        
+        peliculas = self.__coleccion.find({
+            "Actor Protagonista": {"$regex": f"{actor1}.*{actor2}|{actor2}.*{actor1}", "$options": "i"}
+        })
+        peliculas_obj = [Pelicula(p['Título'], p['Año'], p['Género'], p['Puntuación'],
+                                p['Actor Protagonista'], p['Clasificación'], p['Sinopsis']) for p in peliculas]
+
         comunes = []
         for pelicula in peliculas_obj:
             actor1_obj = next((actor for actor in pelicula._Pelicula__actores if actor.obtener_nombre() == actor1), None)
@@ -63,7 +75,20 @@ class GestorPeliculas:
                 comunes.append(pelicula)
         return comunes
 
+    def __obtener_actores_unicos(self):
+        actores_crudos = self.__coleccion.distinct("Actor Protagonista")
+        actores = set()
+        for entrada in actores_crudos:
+            if isinstance(entrada, str):
+                for nombre in entrada.split(','):
+                    actores.add(nombre.strip())
+        return sorted(actores)
+
+    def __obtener_titulos_unicos(self):
+        return sorted(self.__coleccion.distinct("Título"))
+
 # Vista
+
 class VistaCatalogoPeliculas(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -89,7 +114,9 @@ class VistaCatalogoPeliculas(QMainWindow):
 
         self.resultado_table = QTableWidget(self)
         self.resultado_table.setColumnCount(7)
-        self.resultado_table.setHorizontalHeaderLabels(["Título", "Año", "Género", "Puntuación", "Actor", "Clasificación", "Sinopsis"])
+        self.resultado_table.setHorizontalHeaderLabels(
+            ["Título", "Año", "Género", "Puntuación", "Actor", "Clasificación", "Sinopsis"]
+        )
 
         layout = QVBoxLayout()
         layout.addWidget(QLabel("Buscar Película por Título"))
@@ -109,7 +136,9 @@ class VistaCatalogoPeliculas(QMainWindow):
 
         self.resultado_comunes_table = QTableWidget(self)
         self.resultado_comunes_table.setColumnCount(7)
-        self.resultado_comunes_table.setHorizontalHeaderLabels(["Título", "Año", "Género", "Puntuación", "Actor", "Clasificación", "Sinopsis"])
+        self.resultado_comunes_table.setHorizontalHeaderLabels(
+            ["Título", "Año", "Género", "Puntuación", "Actor", "Clasificación", "Sinopsis"]
+        )
 
         layout = QVBoxLayout()
         layout.addWidget(QLabel("Ingresa dos actores"))
@@ -128,13 +157,28 @@ class VistaCatalogoPeliculas(QMainWindow):
             for col, dato in enumerate(pelicula.obtener_datos()):
                 table.setItem(row, col, QTableWidgetItem(dato))
 
+    def configurar_autocompletado(self, actores, titulos):
+        actores_completer = QCompleter(actores)
+        actores_completer.setCaseSensitivity(Qt.CaseInsensitive)
+        self.actor1_line_edit.setCompleter(actores_completer)
+        self.actor2_line_edit.setCompleter(actores_completer)
+
+        titulos_completer = QCompleter(titulos)
+        titulos_completer.setCaseSensitivity(Qt.CaseInsensitive)
+        self.titulo_line_edit.setCompleter(titulos_completer)
+
 # Controlador
+
 class ControladorCatalogoPeliculas:
     def __init__(self, vista, modelo):
         self.__vista = vista
         self.__modelo = modelo
         self.__vista.buscar_button.clicked.connect(self.buscar_peliculas)
         self.__vista.buscar_comunes_button.clicked.connect(self.buscar_peliculas_comunes)
+
+        actores = self.__modelo._GestorPeliculas__obtener_actores_unicos()
+        titulos = self.__modelo._GestorPeliculas__obtener_titulos_unicos()
+        self.__vista.configurar_autocompletado(actores, titulos)
 
     def buscar_peliculas(self):
         titulo = self.__vista.titulo_line_edit.text().strip()
@@ -159,6 +203,7 @@ class ControladorCatalogoPeliculas:
         else:
             QMessageBox.information(self.__vista, "Sin Resultados", "No se encontraron películas comunes entre los actores proporcionados.")
 
+# App
 app = QApplication(sys.argv)
 modelo = GestorPeliculas()
 vista = VistaCatalogoPeliculas()
